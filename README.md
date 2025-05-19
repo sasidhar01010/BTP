@@ -53,13 +53,13 @@ The core methodology revolves around enhancing the **Diffusion-TS** model (Yuan 
 
 ## Implementation Evolution
 
-*   **Previous Work (Semester 1):**
+*   **Previous Work:**
     *   Initial implementation focused on a smaller dataset (single gauge or few gauges).
     *   The dataset was expanded to 533 gauge points for training.
     *   The seasonality block in the decoder was removed to simplify the model and improve focus on learned temporal relationships.
     *   Only temporal data was used for conditioning.
 
-*   **Current Work (Semester 2 - This Report):**
+*   **Current Work:**
     *   **Integration of Non-Temporal Data:** Static basin features were incorporated as conditioning factors alongside dynamic temporal data. This allows the model to generate streamflow patterns that are more physically accurate and basin-specific.
     *   **Enhanced Conditional Generation:** The diffusion model now produces streamflow conditioned on both time-varying inputs (e.g., temperature) and the distinct, static characteristics of each individual basin.
     *   **Non-Temporal Data Pathway:** The Transformer architecture was modified with specialized layers to process non-temporal input, expand it across the sequence length, embed it, and merge it with encoded temporal information to condition the decoder.
