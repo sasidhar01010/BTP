@@ -79,16 +79,7 @@ The model demonstrated strong generalization by effectively generating basin-spe
 
 The developed conditional diffusion-based model (Diffusion-TS) shows significant promise for streamflow prediction, especially in ungauged or data-scarce scenarios. Key improvements include training on a larger multi-basin dataset and effectively combining static basin attributes with dynamic temporal variables.
 
-**Future Work:**
-*   Further improve the integration of static features.
-*   Incorporate attention mechanisms specifically designed for non-temporal data.
-*   Expand evaluation with more comprehensive hydrological measures.
-*   Enhance the model's ability to represent hydrological variability, particularly extreme events.
 
-## Individual Contributions
-
-*   **Sasidhar Reddy Navuluri:** Model Design and Methodology, Results Analysis and Evaluation.
-*   **Mantripragda Venakta Karthikeya:** Data Collection and Preprocessing, Model Training and Experimentation.
 
 ## References
 
